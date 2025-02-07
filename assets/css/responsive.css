@@ -153,3 +153,38 @@
     
 
 }
+
+
+@media (max-width:1724px) {
+   .menu__navar{
+        justify-content: space-around;
+   } 
+
+   .information__photo {
+        flex-basis: 42%;
+    }
+   .information__info {
+        flex-basis: 56%;
+        padding-left: 5rem;
+    }
+}
+
+
+@media (max-width:1090px) {
+    .description__title h3 {
+        font-size: 2rem;
+    }
+
+    .description__lenguaje{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .description__lenguaje li {
+        width: 50%;
+        text-align: center;
+    }
+    .container__image img {
+        height: 80%;
+    }
+}

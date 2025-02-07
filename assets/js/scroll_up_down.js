@@ -1,11 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   // ?Animacion prueba
-
   const option = {
     root:null,
     rootMargin:'0px',
-    threshold:0.5 /* Significa que apenas se vea el pixel de llamara el callback con 0  ,con 1 se tendra que ver casi todo el elemento */
+    threshold:0.2 /* Significa que apenas se vea el pixel de llamara el callback con 0  ,con 1 se tendra que ver casi todo el elemento */
   }
   function callback(entries){
     entries.forEach(entry => {
