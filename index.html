@@ -20,6 +20,34 @@
 
 <body>
 
+    <!-- Menu movil -->
+    <div class="menu-mobile">
+        <header class="menu-mobile__header">
+            <div class="menu-mobile__container-logo">
+                <a class="menu-mobile__link-logo" href="#">
+                    <img class="menu-mobile__logo" src="assets/img/logo.png"  alt="logo del sitio web">
+                </a>
+            </div>
+
+            <button class="menu-mobile__close">
+                <i class="menu-mobile__icon-close fa-solid fa-xmark"> </i> 
+            </button>
+        </header>
+       
+        <div class="menu-mobile__body">
+            <nav class="menu-mobile__nav">
+                <ul class="menu-mobile__list">
+                    <!-- Datos agregados desde js -->
+                </ul>
+            </nav>
+        </div>
+
+        
+
+    </div>
+
+
+    <!-- Layout Principal -->
     <section class="layout">
 
        
@@ -32,13 +60,14 @@
                     </a>
                 </div>
                 <!-- Boton de menu responsive -->
-                <!-- <div class="navbar__mobile-btn">
+                <div class="navbar__mobile-btn">
                     <button class="mobile-btn__wrap">
                         <span class="mobile-btn__line"></span>
                         <span class="mobile-btn__line"></span>
                         <span class="mobile-btn__line"></span>
                     </button>
-                </div> -->
+                </div>
+
                 <nav class="navar__nav">
                     <ul class="nav__list">
                         <li class="nav__item">
@@ -58,6 +87,7 @@
                         </li>
                     </ul>
                 </nav>
+
             </header>
             <div class="navar__info"> 
                 <div class="info__content">
@@ -417,6 +447,7 @@
 
     <script src="assets/js/animation.js"></script>
     <script src="assets/js/scroll_up_down.js"></script>
+    <script src="assets/js/navar_movil.js"> </script>
 </body>
 
 </html>
