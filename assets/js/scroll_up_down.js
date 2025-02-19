@@ -47,5 +47,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 })
 
+/////////////////////Boton para motrar menu////////////////////
+
+btn_movil.addEventListener("click", (e) => {
+    
+})
+
+
+
+
 })
 

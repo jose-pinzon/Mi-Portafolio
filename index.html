@@ -29,15 +29,30 @@
                 </a>
             </div>
 
-            <button class="menu-mobile__close">
+            <button class="menu-mobile__close" id="btnMobilCLose">
                 <i class="menu-mobile__icon-close fa-solid fa-xmark"> </i> 
             </button>
         </header>
-       
+
+        
         <div class="menu-mobile__body">
             <nav class="menu-mobile__nav">
                 <ul class="menu-mobile__list">
-                    <!-- Datos agregados desde js -->
+                    <li class="menu-mobile__item">
+                        <a  class="menu-mobile--link" href="">Inicio</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a class="menu-mobile--link" href="#layout__information">Sobre mi</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a class="menu-mobile--link" href="#layout__skills">Habilidades</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a class="menu-mobile--link" href="#layout__projects">Proyectos</a>
+                    </li>
+                    <li class="menu-mobile__item">
+                        <a class="menu-mobile--link" href="#layout__contact">Contacto</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -60,7 +75,7 @@
                     </a>
                 </div>
                 <!-- Boton de menu responsive -->
-                <div class="navbar__mobile-btn">
+                <div class="navbar__mobile-btn" id="btn_movil">
                     <button class="mobile-btn__wrap">
                         <span class="mobile-btn__line"></span>
                         <span class="mobile-btn__line"></span>
@@ -69,7 +84,7 @@
                 </div>
 
                 <nav class="navar__nav">
-                    <ul class="nav__list">
+                    <ul class="nav__list" id="nav__list">
                         <li class="nav__item">
                             <a  class="nav__item--link" href="">Inicio</a>
                         </li>
@@ -446,8 +461,8 @@
     </section>
 
     <script src="assets/js/animation.js"></script>
+    <script src="assets/js/navar_movil.js"></script>
     <script src="assets/js/scroll_up_down.js"></script>
-    <script src="assets/js/navar_movil.js"> </script>
 </body>
 
 </html>

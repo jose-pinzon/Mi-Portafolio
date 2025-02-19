@@ -175,6 +175,10 @@
         min-width: 990px;
     }
 
+    .layout__menu {
+        height: 65vh;
+    }
+
     .description__title h3 {
         font-size: 2rem;
     }
@@ -199,16 +203,26 @@
         display: none;
     }
 
+    .layout{
+        min-width: 64rem;
+    }
+
     .navbar__mobile-btn{
         display: block;
     }
     
 
     .layout__menu {
-        height: 80vh;
+        height: 58vh;
     }
 
     .menu__navar{
         justify-content: space-between;
     }
+
+    .menu__navar--fixed {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
 }
