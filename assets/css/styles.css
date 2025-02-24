@@ -7,6 +7,7 @@
     --color-text-header:#2e2d2d;
     --color-shadow-text:#1B1B15;
     --color-shadow:#ccc;
+    --max-width:1300px
 
     /* 0099F5 */
 }
@@ -521,18 +522,21 @@ gap:8rem 4rem;
     position: relative;
 }
 .project-image__information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 100%;
     padding: 8rem 4rem;
     text-align: center;
-    
     background-color: rgba(0, 153, 245, 0.7);
     transform: rotate(90deg) translateX(100%);
     transition: all 300ms ease-in-out;
     color: var(--color-text-white);
-    align-items: center;
+    
 }
 
 .project__image:hover .project-image__information{
