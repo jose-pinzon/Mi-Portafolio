@@ -68,8 +68,10 @@ body{
     height: 100vh;
     background:linear-gradient(rgba(0, 0, 0, 0.75) ,rgba(46, 46, 46, 0.75) ), url('../img/fondo.jpg')  no-repeat;
     background-size: 100%;  
-    z-index: 2;  
+    z-index: 2; 
+    overflow: hidden; 
 }
+
 
 
 .navar__nav{
@@ -239,6 +241,7 @@ body{
 
 .layout__information{
     height: 100vh;
+    overflow: hidden;
 }
 
 
@@ -327,6 +330,7 @@ body{
     width: 100%;
     padding:10rem;
     align-items: center;
+    overflow: hidden;
 }
 
 
@@ -635,6 +639,7 @@ gap:8rem 4rem;
 .layout__contact{
     position: relative;
     padding: 10rem;
+    overflow: hidden;
 }
 .contact__subtitle{
     margin-left: 10rem;
@@ -705,6 +710,7 @@ gap:8rem 4rem;
     justify-content: space-between;
     align-items: center;
     padding: 0 10rem;
+    overflow: hidden;
 }
 
 .footer__redes{

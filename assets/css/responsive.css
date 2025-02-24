@@ -118,6 +118,7 @@
     .layout__menu{
         height: 85vh;
     } 
+    
 
 
     .skills__header,
@@ -239,6 +240,7 @@
 
     .container__image img {
         height: 32%;
+        width: 100%;
     }
     .project-image__information {
         padding: 4rem;
@@ -253,6 +255,17 @@
     .layout__menu {
         height: 53vh;
     }
+
+    .layout__information,
+    .layout__skills,
+    .layout__projects,
+    .layout__contact, 
+    .layout__footer
+    {
+        max-width: 90rem;
+    }
+
+
 
     .projects__container {
         flex-direction: column;
@@ -302,10 +315,12 @@
         padding-left: 0rem;
         text-align: center;
         margin-top: 5rem;
+        padding: 0 5rem;
     }
 
     .photo__content {
         margin-left: 0;
+        margin: 0 auto;
     }
     .info__name {
         width: 100%;
